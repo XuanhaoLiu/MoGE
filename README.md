@@ -1,4 +1,4 @@
-# MoGE
+# MoGE (BIBM 24)
 This is the official implementation of our BIBM 2024 paper "MoGE: Mixture of Graph Experts for Cross-subject Emotion Recognition via Decomposing EEG".
 
 ![moge](model_figure.png)
