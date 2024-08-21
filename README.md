@@ -1,6 +1,8 @@
 # MoGE
 This is the official implementation of our BIBM 2024 paper "MoGE: Mixture of Graph Experts for Cross-subject Emotion Recognition via Decomposing EEG".
 
+![moge](model_figure.png)
+
 ## Abstract
 Decoding emotions of previously unseen subjects from electroencephalography (EEG) signals is challenging due to the inter-subject variability. Domain Generalization (DG) methods aim to mitigate the domain shift among different subjects. Once trained, a DG model can be directly deployed on new subjects without any calibration phase. While existing DG studies on cross-subject emotion recognition mainly focus on the design of loss function for domain alignment or regularization, we introduce Sparse Mixture of Graph Experts (MoGE) model to explore DG issues from a new perspective, i.e. the design of the neural architecture. In the MoGE model, routers allocate each EEG channel to a specialized expert, thereby facilitating the decomposition of the intricate brain into distinct functional areas. Extensive experiments on three public datasets demonstrate that compared to other DG methods, our MoGE model trained with empirical risk minimization (ERM) achieves the state-of-the-art (SOTA) accuracies, 88.0%, 74.3%, and 81.8% on SEED, SEED- IV, and SEED-V datasets, respectively.
 
