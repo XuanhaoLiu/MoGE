@@ -11,7 +11,7 @@ Decoding emotions of previously unseen subjects from electroencephalography (EEG
 * pytorch==2.0.0
 * timm==0.4.12
 
-* ## Example
+## Example
 Example code for the use of MoGE:
 ```python
 import torch
