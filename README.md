@@ -29,7 +29,7 @@ output = model(eeg)
 ## Citation
 If you find our paper/code useful, please consider citing our work:
 ```
-@inproceedings{liu2023moge,
+@inproceedings{liu2024moge,
   title={MoGE: Mixture of Graph Experts for Cross-subject Emotion Recognition via Decomposing {EEG}},
   author={Liu, Xuan-Hao and Jiang, Wei-Bang and Zheng, Wei-Long and Lu, Bao-Liang},
   booktitle={2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)},
