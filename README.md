@@ -18,11 +18,11 @@ import torch
 from torch import nn
 from MoGE import Sparse_MoGE
 
-model = Sparse_MoGE(in_channels=62, hidden_channels=62, num_points=5, time_window=5,
+model = Sparse_MoGE(in_channels=5, hidden_channels=32, num_points=62, time_window=5,
                     num_layers=4, heads=2, dim_head=4,
                     num_classes=3, num_experts=3, pool='cls')
-# EEG shape = (N, T, C, V), N is batch size, T is window size, C is channel number, V is frequency band number
-eeg = torch.rand(size=(32, 5, 62, 5))
+# EEG shape = (N, T, V, C), N is batch size, T is window size, V is frequency band number, C is channel number
+eeg = torch.rand(size=(32, 5, 5, 62))
 output = model(eeg)
 ```
 
